@@ -47,16 +47,12 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Contact</h4>
             <div className="space-y-3 text-sm text-white/80">
               <div className="flex items-center space-x-2">
-                <Phone className="h-4 w-4 text-accent" />
-                <span>+1 (555) 123-4567</span>
-              </div>
-              <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-accent" />
-                <span>support@swiftship.com</span>
+                <span>managementofficails001@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-accent" />
-                <span>Lagos, Nigeria</span>
+                <span>London, United Kingdom</span>
               </div>
             </div>
           </div>
