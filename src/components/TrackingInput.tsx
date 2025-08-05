@@ -89,10 +89,6 @@ const TrackingInput = ({ onTrackingValidated }: TrackingInputProps) => {
                   {isLoading ? "Tracking..." : "Track"}
                 </Button>
               </div>
-              
-              <div className="text-sm text-muted-foreground">
-                <p>Valid tracking codes: SS2024001 - SS2024008</p>
-              </div>
             </CardContent>
           </Card>
         </div>

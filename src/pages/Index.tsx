@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import TrackingInput from "@/components/TrackingInput";
-import ProductsSection from "@/components/ProductsSection";
+import ProductList from "@/components/ProductList";
 import TrackingSection from "@/components/TrackingSection";
 import Footer from "@/components/Footer";
 
@@ -15,7 +15,7 @@ const Index = () => {
         <TrackingInput onTrackingValidated={setIsTrackingValidated} />
       ) : (
         <>
-          <ProductsSection />
+          <ProductList />
           <TrackingSection />
         </>
       )}
