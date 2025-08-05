@@ -30,21 +30,14 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
   return (
     <Card className="overflow-hidden hover:shadow-lg transition-all duration-300 group">
-      <div className="aspect-square overflow-hidden bg-shipping-gray">
-        <img 
-          src={product.image} 
-          alt={product.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-        />
+      <div className="aspect-square bg-muted/30 flex items-center justify-center">
+        <div className="text-center p-4">
+          <h3 className="font-bold text-lg text-foreground mb-2">{product.name}</h3>
+          <p className="text-sm text-muted-foreground">{product.category}</p>
+        </div>
       </div>
       <CardContent className="p-4">
         <div className="flex items-start justify-between mb-2">
-          <div className="flex-1">
-            <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">
-              {product.name}
-            </h3>
-            <p className="text-sm text-muted-foreground">{product.category}</p>
-          </div>
           <Badge className={statusColors[product.status]}>
             {statusLabels[product.status]}
           </Badge>

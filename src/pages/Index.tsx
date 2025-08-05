@@ -1,16 +1,24 @@
+import { useState } from "react";
 import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
+import TrackingInput from "@/components/TrackingInput";
 import ProductsSection from "@/components/ProductsSection";
 import TrackingSection from "@/components/TrackingSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  const [isTrackingValidated, setIsTrackingValidated] = useState(false);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <HeroSection />
-      <ProductsSection />
-      <TrackingSection />
+      {!isTrackingValidated ? (
+        <TrackingInput onTrackingValidated={setIsTrackingValidated} />
+      ) : (
+        <>
+          <ProductsSection />
+          <TrackingSection />
+        </>
+      )}
       <Footer />
     </div>
   );

@@ -16,7 +16,7 @@ export const products: Product[] = [
     price: 1199,
     image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=400&fit=crop&crop=center",
     trackingCode: "SS2024001",
-    status: "delivered"
+    status: "in_transit"
   },
   {
     id: "2",
@@ -25,7 +25,7 @@ export const products: Product[] = [
     price: 850,
     image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop&crop=center",
     trackingCode: "SS2024002",
-    status: "delivered"
+    status: "in_transit"
   },
   {
     id: "3",
@@ -43,7 +43,7 @@ export const products: Product[] = [
     price: 450,
     image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop&crop=center",
     trackingCode: "SS2024004",
-    status: "delivered"
+    status: "in_transit"
   },
   {
     id: "5",
@@ -52,7 +52,7 @@ export const products: Product[] = [
     price: 320,
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop&crop=center",
     trackingCode: "SS2024005",
-    status: "processing"
+    status: "in_transit"
   },
   {
     id: "6",
@@ -70,7 +70,7 @@ export const products: Product[] = [
     price: 120,
     image: "https://images.unsplash.com/photo-1627123424574-724758594e93?w=400&h=400&fit=crop&crop=center",
     trackingCode: "SS2024007",
-    status: "delivered"
+    status: "in_transit"
   },
   {
     id: "8",
@@ -79,7 +79,7 @@ export const products: Product[] = [
     price: 101,
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=400&fit=crop&crop=center",
     trackingCode: "SS2024008",
-    status: "processing"
+    status: "in_transit"
   }
 ];
 

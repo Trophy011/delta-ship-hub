@@ -11,8 +11,8 @@ const Header = () => {
           <div className="flex items-center space-x-2">
             <Package className="h-8 w-8 text-primary" />
             <div>
-              <h1 className="text-2xl font-bold text-primary">SwiftShip</h1>
-              <p className="text-xs text-muted-foreground">Global Logistics</p>
+              <h1 className="text-2xl font-bold text-primary">Sky Global Delivery</h1>
+              <p className="text-xs text-muted-foreground">Premium Shipping</p>
             </div>
           </div>
 

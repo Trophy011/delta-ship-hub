@@ -12,14 +12,6 @@ const TrackingSection = () => {
   const trackingEvents = [
     {
       date: "2024-01-15",
-      time: "14:30",
-      status: "Package delivered",
-      location: "Delta State, Abraka",
-      icon: CheckCircle,
-      color: "text-success",
-    },
-    {
-      date: "2024-01-15",
       time: "09:15",
       status: "Out for delivery",
       location: "Warri Distribution Center",
@@ -82,10 +74,10 @@ const TrackingSection = () => {
                   <span className="text-sm font-medium">Order Total:</span>
                   <span className="text-lg font-bold text-primary">$3,500.00</span>
                 </div>
-                <div className="flex items-center justify-between mt-2">
-                  <span className="text-sm text-muted-foreground">Shipping Status:</span>
-                  <Badge className="bg-success text-success-foreground">Delivered</Badge>
-                </div>
+              <div className="flex items-center justify-between mt-2">
+                <span className="text-sm text-muted-foreground">Shipping Status:</span>
+                <Badge className="bg-primary text-primary-foreground">In Transit</Badge>
+              </div>
               </div>
             </CardContent>
           </Card>

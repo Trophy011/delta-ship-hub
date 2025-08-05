@@ -4,8 +4,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Package, DollarSign, MapPin } from "lucide-react";
 
 const ProductsSection = () => {
-  const deliveredCount = products.filter(p => p.status === "delivered").length;
-  const inTransitCount = products.filter(p => p.status === "in_transit").length;
+  const deliveredCount = 0; // All items are in transit
+  const inTransitCount = products.length;
   
   return (
     <section className="py-16 bg-background">
@@ -29,19 +29,19 @@ const ProductsSection = () => {
             </CardContent>
           </Card>
           
-          <Card className="border-2 border-success/20">
+          <Card className="border-2 border-primary/20">
             <CardContent className="p-6 text-center">
-              <Package className="h-8 w-8 text-success mx-auto mb-3" />
-              <h3 className="text-2xl font-bold text-foreground">{deliveredCount}</h3>
-              <p className="text-muted-foreground">Items Delivered</p>
+              <MapPin className="h-8 w-8 text-primary mx-auto mb-3" />
+              <h3 className="text-2xl font-bold text-foreground">{inTransitCount}</h3>
+              <p className="text-muted-foreground">Items In Transit</p>
             </CardContent>
           </Card>
           
           <Card className="border-2 border-warning/20">
             <CardContent className="p-6 text-center">
-              <MapPin className="h-8 w-8 text-warning mx-auto mb-3" />
-              <h3 className="text-2xl font-bold text-foreground">{inTransitCount}</h3>
-              <p className="text-muted-foreground">In Transit</p>
+              <Package className="h-8 w-8 text-warning mx-auto mb-3" />
+              <h3 className="text-2xl font-bold text-foreground">{products.length}</h3>
+              <p className="text-muted-foreground">Total Items</p>
             </CardContent>
           </Card>
         </div>
