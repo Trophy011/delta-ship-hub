@@ -26,7 +26,7 @@ const ProductList = () => {
             Your Shipment Details
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Items being delivered to Godswill Uzoma in Delta State, Abraka
+            Items being delivered to Godswill Uzoma in London, United Kingdom
           </p>
         </div>
 
@@ -109,7 +109,7 @@ const ProductList = () => {
           <CardContent className="p-8">
             <div className="text-center">
               <h3 className="text-xl font-bold text-foreground mb-4">Delivery Information</h3>
-              <div className="grid md:grid-cols-3 gap-6 text-sm">
+              <div className="grid md:grid-cols-4 gap-6 text-sm">
                 <div>
                   <p className="text-muted-foreground mb-1">Recipient</p>
                   <p className="font-semibold text-foreground">Godswill Uzoma</p>
@@ -119,8 +119,12 @@ const ProductList = () => {
                   <p className="font-semibold text-foreground">+234904142****</p>
                 </div>
                 <div>
+                  <p className="text-muted-foreground mb-1">Email</p>
+                  <p className="font-semibold text-foreground">managementofficails001@gmail.com</p>
+                </div>
+                <div>
                   <p className="text-muted-foreground mb-1">Address</p>
-                  <p className="font-semibold text-foreground">Delta State, Abraka</p>
+                  <p className="font-semibold text-foreground">London, United Kingdom</p>
                 </div>
               </div>
             </div>

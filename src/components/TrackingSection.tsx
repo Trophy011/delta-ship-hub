@@ -6,7 +6,8 @@ const TrackingSection = () => {
   const customerInfo = {
     name: "Godswill Uzoma",
     phone: "+234904142****",
-    address: "Delta State, Abraka",
+    email: "managementofficails001@gmail.com",
+    address: "London, United Kingdom",
   };
 
   const trackingEvents = [
@@ -14,7 +15,7 @@ const TrackingSection = () => {
       date: "2024-01-15",
       time: "09:15",
       status: "Out for delivery",
-      location: "Warri Distribution Center",
+      location: "London Distribution Center",
       icon: Truck,
       color: "text-primary",
     },
@@ -62,6 +63,11 @@ const TrackingSection = () => {
               <div>
                 <p className="text-sm text-muted-foreground">Phone Number</p>
                 <p className="font-semibold text-foreground">{customerInfo.phone}</p>
+              </div>
+              
+              <div>
+                <p className="text-sm text-muted-foreground">Email Address</p>
+                <p className="font-semibold text-foreground">{customerInfo.email}</p>
               </div>
               
               <div>
