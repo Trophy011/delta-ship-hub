@@ -12,7 +12,7 @@ const TrackingSection = () => {
 
   const trackingEvents = [
     {
-      date: "2024-01-15",
+      date: "2025-08-07",
       time: "09:15",
       status: "Out for delivery",
       location: "London Distribution Center",
@@ -20,7 +20,7 @@ const TrackingSection = () => {
       color: "text-primary",
     },
     {
-      date: "2024-01-14",
+      date: "2025-08-08",
       time: "16:45",
       status: "Package arrived at facility",
       location: "Lagos Processing Center",
@@ -28,8 +28,8 @@ const TrackingSection = () => {
       color: "text-muted-foreground",
     },
     {
-      date: "2024-01-13",
-      time: "11:20",
+      date: "2025-08-09",
+      time: "6:20",
       status: "Package picked up",
       location: "Origin Facility",
       icon: Clock,
