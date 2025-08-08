@@ -78,7 +78,7 @@ const TrackingSection = () => {
               <div className="pt-4 border-t">
                 <div className="flex items-center justify-between">
                   <span className="text-sm font-medium">Order Total:</span>
-                  <span className="text-lg font-bold text-primary">$6,500.00</span>
+                  <span className="text-lg font-bold text-primary">$4,500.00</span>
                 </div>
               <div className="flex items-center justify-between mt-2">
                 <span className="text-sm text-muted-foreground">Shipping Status:</span>
