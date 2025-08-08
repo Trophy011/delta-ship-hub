@@ -26,7 +26,7 @@ const ProductList = () => {
             Your Shipment Details
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Items being delivered to Godswill Uzoma in London, United Kingdom
+            Items being delivered to Fatima del Socorro Garrido Martinez in UR.LA CENTRAL M176-L26 El pazon
           </p>
         </div>
 
@@ -112,19 +112,19 @@ const ProductList = () => {
               <div className="grid md:grid-cols-4 gap-6 text-sm">
                 <div>
                   <p className="text-muted-foreground mb-1">Recipient</p>
-                  <p className="font-semibold text-foreground">Godswill Uzoma</p>
+                  <p className="font-semibold text-foreground">Fatima del Socorro Garrido Martinez</p>
                 </div>
                 <div>
                   <p className="text-muted-foreground mb-1">Contact</p>
-                  <p className="font-semibold text-foreground">+234904142****</p>
+                  <p className="font-semibold text-foreground">+57 304 4143024</p>
                 </div>
                 <div>
                   <p className="text-muted-foreground mb-1">Email</p>
-                  <p className="font-semibold text-foreground">managementofficails001@gmail.com</p>
+                  <p className="font-semibold text-foreground">jn3436490@gmail.com</p>
                 </div>
                 <div>
                   <p className="text-muted-foreground mb-1">Address</p>
-                  <p className="font-semibold text-foreground">London, United Kingdom</p>
+                  <p className="font-semibold text-foreground">UR.LA CENTRAL M176-L26 El pazon</p>
                 </div>
               </div>
             </div>

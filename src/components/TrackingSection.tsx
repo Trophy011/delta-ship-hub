@@ -4,10 +4,10 @@ import { MapPin, Clock, CheckCircle, Package, Truck } from "lucide-react";
 
 const TrackingSection = () => {
   const customerInfo = {
-    name: "Godswill Uzoma",
-    phone: "+234904142****",
-    email: "managementofficails001@gmail.com",
-    address: "London, United Kingdom",
+    name: "Fatima del Socorro Garrido Martinez",
+    phone: "+57 304 4143024",
+    email: "jn3436490@gmail.com",
+    address: "UR.LA CENTRAL M176-L26 El pazon",
   };
 
   const trackingEvents = [
