@@ -11,74 +11,38 @@ export interface Product {
 export const products: Product[] = [
   {
     id: "1",
-    name: "Diamond Engagement Ring",
+    name: "Jewelries",
     category: "Jewelry",
-    price: 2500,
+    price: 125000,
     image: "",
     trackingCode: "SS2024001",
     status: "in_transit"
   },
   {
-    id: "2", 
-    name: "Designer Evening Dress",
-    category: "Clothes",
-    price: 450,
+    id: "2",
+    name: "Bags",
+    category: "Bags",
+    price: 150000,
     image: "",
     trackingCode: "SS2024002",
     status: "in_transit"
   },
   {
     id: "3",
-    name: "Louis Vuitton Handbag",
-    category: "Bags",
-    price: 1200,
+    name: "iPhone 14 pro max",
+    category: "Electronics",
+    price: 175000,
     image: "",
-    trackingCode: "SS2024003", 
+    trackingCode: "SS2024003",
     status: "in_transit"
   },
   {
     id: "4",
-    name: "iPhone 15 Pro Max",
-    category: "Electronics",
-    price: 1199,
+    name: "Shoes",
+    category: "Shoes",
+    price: 50000,
     image: "",
     trackingCode: "SS2024004",
-    status: "in_transit"
-  },
-  {
-    id: "5",
-    name: "Nike Air Jordan Sneakers",
-    category: "Shoes",
-    price: 180,
-    image: "",
-    trackingCode: "SS2024005",
-    status: "in_transit"
-  },
-  {
-    id: "6",
-    name: "Rose Bouquet Premium",
-    category: "Flowers",
-    price: 85,
-    image: "",
-    trackingCode: "SS2024006",
-    status: "in_transit"
-  },
-  {
-    id: "7",
-    name: "Silk Business Suit",
-    category: "Clothes", 
-    price: 680,
-    image: "",
-    trackingCode: "SS2024007",
-    status: "in_transit"
-  },
-  {
-    id: "8",
-    name: "Pearl Necklace Set",
-    category: "Jewelry",
-    price: 320,
-    image: "",
-    trackingCode: "SS2024008",
     status: "in_transit"
   }
 ];

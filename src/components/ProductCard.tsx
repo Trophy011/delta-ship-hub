@@ -45,7 +45,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         
         <div className="space-y-2">
           <div className="flex justify-between items-center">
-            <span className="text-lg font-bold text-foreground">${product.price}</span>
+            <span className="text-lg font-bold text-foreground">{product.price.toLocaleString()} Colombia pesos</span>
           </div>
           
           <div className="space-y-1">

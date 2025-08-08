@@ -35,7 +35,7 @@ const ProductList = () => {
           <Card className="border-2 border-primary/20">
             <CardContent className="p-6 text-center">
               <DollarSign className="h-8 w-8 text-primary mx-auto mb-3" />
-              <h3 className="text-2xl font-bold text-foreground">${totalValue.toLocaleString()}</h3>
+              <h3 className="text-2xl font-bold text-foreground">{totalValue.toLocaleString()} Colombia pesos</h3>
               <p className="text-muted-foreground">Total Shipment Value</p>
             </CardContent>
           </Card>
@@ -84,7 +84,7 @@ const ProductList = () => {
                   
                   <div className="flex items-center space-x-4">
                     <div className="text-right">
-                      <p className="font-bold text-foreground">${product.price}</p>
+                      <p className="font-bold text-foreground">{product.price.toLocaleString()} Colombia pesos</p>
                       <p className="text-xs text-muted-foreground">{product.trackingCode}</p>
                     </div>
                     <Badge className={statusColors[product.status]}>
@@ -98,7 +98,7 @@ const ProductList = () => {
             <div className="border-t mt-6 pt-4">
               <div className="flex justify-between items-center">
                 <span className="text-lg font-semibold text-foreground">Total Value:</span>
-                <span className="text-2xl font-bold text-primary">${totalValue.toLocaleString()}</span>
+                <span className="text-2xl font-bold text-primary">{totalValue.toLocaleString()} Colombia pesos</span>
               </div>
             </div>
           </CardContent>
@@ -109,6 +109,11 @@ const ProductList = () => {
           <CardContent className="p-8">
             <div className="text-center">
               <h3 className="text-xl font-bold text-foreground mb-4">Delivery Information</h3>
+              <div className="mb-6 p-4 bg-warning/10 border border-warning/20 rounded-lg">
+                <p className="font-semibold text-warning-foreground">
+                  <strong>Note:</strong> Payment when the package arrives in Colombia before receiving the package
+                </p>
+              </div>
               <div className="grid md:grid-cols-4 gap-6 text-sm">
                 <div>
                   <p className="text-muted-foreground mb-1">Recipient</p>
