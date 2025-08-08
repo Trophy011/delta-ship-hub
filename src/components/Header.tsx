@@ -38,6 +38,7 @@ const Header = () => {
             <a href="#support" className="text-foreground hover:text-primary transition-colors">
               Support
             </a>
+            <div id="google_translate_element" className="inline-block"></div>
             <Button variant="outline" size="sm">
               <User className="h-4 w-4 mr-2" />
               Login

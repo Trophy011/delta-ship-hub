@@ -35,7 +35,7 @@ const ProductList = () => {
           <Card className="border-2 border-primary/20">
             <CardContent className="p-6 text-center">
               <DollarSign className="h-8 w-8 text-primary mx-auto mb-3" />
-              <h3 className="text-2xl font-bold text-foreground">{totalValue.toLocaleString()} Colombia pesos</h3>
+              <h3 className="text-2xl font-bold text-foreground">${totalValue.toLocaleString()}</h3>
               <p className="text-muted-foreground">Total Shipment Value</p>
             </CardContent>
           </Card>
@@ -84,7 +84,7 @@ const ProductList = () => {
                   
                   <div className="flex items-center space-x-4">
                     <div className="text-right">
-                      <p className="font-bold text-foreground">{product.price.toLocaleString()} Colombia pesos</p>
+                      <p className="font-bold text-foreground">${product.price.toLocaleString()}</p>
                       <p className="text-xs text-muted-foreground">{product.trackingCode}</p>
                     </div>
                     <Badge className={statusColors[product.status]}>
@@ -95,10 +95,20 @@ const ProductList = () => {
               ))}
             </div>
             
-            <div className="border-t mt-6 pt-4">
+            <div className="border-t mt-6 pt-4 space-y-4">
               <div className="flex justify-between items-center">
-                <span className="text-lg font-semibold text-foreground">Total Value:</span>
-                <span className="text-2xl font-bold text-primary">{totalValue.toLocaleString()} Colombia pesos</span>
+                <span className="text-lg font-semibold text-foreground">Subtotal:</span>
+                <span className="text-xl font-bold text-foreground">${totalValue.toLocaleString()}</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="text-lg font-semibold text-foreground">Shipping Fee:</span>
+                <span className="text-xl font-bold text-warning">500,000 Colombia pesos</span>
+              </div>
+              <div className="border-t pt-2">
+                <div className="flex justify-between items-center">
+                  <span className="text-lg font-semibold text-foreground">Total Value:</span>
+                  <span className="text-2xl font-bold text-primary">${totalValue.toLocaleString()}</span>
+                </div>
               </div>
             </div>
           </CardContent>
